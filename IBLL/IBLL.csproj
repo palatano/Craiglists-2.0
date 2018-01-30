@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="IProduct.cs" />
     <Compile Include="IReview.cs" />
+    <Compile Include="IUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

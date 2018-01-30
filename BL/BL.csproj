@@ -54,6 +54,8 @@
     <Compile Include="DALContext.cs" />
     <Compile Include="ProductManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReviewManager.cs" />
+    <Compile Include="UserManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
