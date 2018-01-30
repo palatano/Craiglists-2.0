@@ -1,0 +1,7 @@
+C:\Users\test\Documents\Revature\CraiglistsDemo\Data\bin\Debug\Data.exe.config
+C:\Users\test\Documents\Revature\CraiglistsDemo\Data\bin\Debug\Data.exe
+C:\Users\test\Documents\Revature\CraiglistsDemo\Data\bin\Debug\Data.pdb
+C:\Users\test\Documents\Revature\CraiglistsDemo\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\test\Documents\Revature\CraiglistsDemo\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\test\Documents\Revature\CraiglistsDemo\Data\obj\Debug\Data.exe
+C:\Users\test\Documents\Revature\CraiglistsDemo\Data\obj\Debug\Data.pdb

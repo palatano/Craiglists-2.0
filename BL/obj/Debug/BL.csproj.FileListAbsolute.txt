@@ -1,0 +1,2 @@
+C:\Users\test\Documents\Revature\CraiglistsDemo\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\test\Documents\Revature\CraiglistsDemo\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
