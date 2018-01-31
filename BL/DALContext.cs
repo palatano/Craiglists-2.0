@@ -1,10 +1,10 @@
+using System;
+using System.Data.Entity;
+using System.Linq;
+using Demo.Model;
+
 namespace BL
 {
-    using System;
-    using System.Data.Entity;
-    using System.Linq;
-    using Demo.IBLL;
-    using Demo.Model;
 
     public class DALContext : DbContext
     {
@@ -15,8 +15,8 @@ namespace BL
         // If you wish to target a different database and/or database provider, modify the 'DALContext' 
         // connection string in the application configuration file.
         public DALContext()
-            : base("name=DALContext")
-        {
+            : base("name=CraigslistDB")
+        { 
         }
 
         // Add a DbSet for each entity type that you want to include in your model. For more information 

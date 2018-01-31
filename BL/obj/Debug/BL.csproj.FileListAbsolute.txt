@@ -1,2 +1,17 @@
+C:\Users\test\Documents\Revature\CraiglistsDemo\BL\bin\Debug\BL.dll.config
+C:\Users\test\Documents\Revature\CraiglistsDemo\BL\bin\Debug\BL.dll
+C:\Users\test\Documents\Revature\CraiglistsDemo\BL\bin\Debug\BL.pdb
+C:\Users\test\Documents\Revature\CraiglistsDemo\BL\bin\Debug\EntityFramework.dll
+C:\Users\test\Documents\Revature\CraiglistsDemo\BL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\test\Documents\Revature\CraiglistsDemo\BL\bin\Debug\IBLL.pdb
+C:\Users\test\Documents\Revature\CraiglistsDemo\BL\bin\Debug\Model.pdb
+C:\Users\test\Documents\Revature\CraiglistsDemo\BL\bin\Debug\EntityFramework.xml
+C:\Users\test\Documents\Revature\CraiglistsDemo\BL\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\test\Documents\Revature\CraiglistsDemo\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
 C:\Users\test\Documents\Revature\CraiglistsDemo\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\test\Documents\Revature\CraiglistsDemo\BL\obj\Debug\BL.dll
+C:\Users\test\Documents\Revature\CraiglistsDemo\BL\obj\Debug\BL.pdb
+C:\Users\test\Documents\Revature\CraiglistsDemo\BL\bin\Debug\IBLL.dll
+C:\Users\test\Documents\Revature\CraiglistsDemo\BL\bin\Debug\Model.dll
+C:\Users\test\Documents\Revature\CraiglistsDemo\BL\bin\Debug\IBLL.dll.config
+C:\Users\test\Documents\Revature\CraiglistsDemo\BL\bin\Debug\Model.dll.config

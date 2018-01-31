@@ -14,7 +14,7 @@ namespace Demo.Model
         public string Name { get; set; }
         [StringLength(50), Required, EmailAddress]
         public string Email { get; set; }
-        [StringLength(15), Required, Phone, RegularExpression("" ,ErrorMessage = "Invalid Phone Number")]
+        [StringLength(15), Required, Phone]
         public string Phone { get; set; }
         [Required]
         public DateTime BirthDate { get; set; }
