@@ -10,10 +10,10 @@ namespace IBLL
     public interface IReview
     {
         /* CRUD operations */
-        void Add(Review review);
-        void Remove(int id);
-        void Update(Review review);
-        List<Review> GetReviews();
-        Review GetReviewById(int id);
+        void Post(Review review);
+        void Delete(int id);
+        void Put(Review review);
+        List<Review> Get();
+        Review Get(int id);
     }
 }

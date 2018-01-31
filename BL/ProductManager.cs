@@ -13,23 +13,32 @@ namespace Demo.BL
     {
         DALContext ctx = new DALContext();
 
-        public void Add(Product productModel)
-        {
-            ctx.Products.Add(productModel);
-            ctx.SaveChanges();
-        }
-
-        public Product GetProductById(int id)
-        {
-            return ctx.Products.Find(id);
-        }
-
-        public List<Product> GetProducts()
+        public List<Product> Get()
         {
             return ctx.Products.ToList();
         }
 
-        public void Remove(int id)
+        public Product Get(int id)
+        {
+            return ctx.Products.Find(id);
+        }
+
+        public void Post(Product product)
+        {
+            ctx.Products.Add(product);
+            ctx.SaveChanges();
+        }
+
+        public void Put(Product product)
+        {
+            var prod = ctx.Products.Find(product.Id);
+            prod.Name = product.Name;
+            prod.Description = product.Description;
+            prod.Price = product.Price;
+            ctx.SaveChanges();
+        }
+
+        public void Delete(int id)
         {
             var prod = (from prods in ctx.Products
                         where prods.Id == id
@@ -38,13 +47,5 @@ namespace Demo.BL
             ctx.SaveChanges();
         }
 
-        public void Update(Product product)
-        {
-            var prod = ctx.Products.Find(product.Id);
-            prod.Name = product.Name;
-            prod.Description = product.Description;
-            prod.Price = product.Price;
-            ctx.SaveChanges();
-        }
     }
 }

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BL;
+using Demo.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -9,21 +11,23 @@ namespace CraigslistDemo.Controllers
 {
     public class ValuesController : ApiController
     {
+        DALContext ctx = new DALContext();
         // GET api/values
-        public IEnumerable<string> Get()
+        public IEnumerable<User> Get()
         {
-            return new string[] { "value1", "value2" };
+            return ctx.Users.ToList();
         }
 
         // GET api/values/5
-        public string Get(int id)
+        public User Get(int id)
         {
-            return "value";
+            return ctx.Users.Find(id);
         }
 
         // POST api/values
-        public void Post([FromBody]string value)
+        public void Post([FromBody]User user)
         {
+
         }
 
         // PUT api/values/5

@@ -10,10 +10,10 @@ namespace IBLL
     public interface IUser
     {
         /* CRUD operations */
-        void Add(User user);
-        void Remove(int id);
-        void Update(User user);
-        List<User> GetUsers();
-        User GetUserById(int id);
+        void Post(User user);
+        void Delete(int id);
+        void Put(User user);
+        List<User> Get();
+        User Get(int id);
     }
 }

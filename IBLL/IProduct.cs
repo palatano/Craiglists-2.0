@@ -10,11 +10,11 @@ namespace Demo.IBLL
     public interface IProduct
     {
         /* CRUD operations */
-        void Add(Product productModel);
-        void Remove(int id);
-        void Update(Product productModel);
-        List<Product> GetProducts();
-        Product GetProductById(int id);
+        void Post(Product productModel);
+        void Delete(int id);
+        void Put(Product productModel);
+        List<Product> Get();
+        Product Get(int id);
 
     }
 }

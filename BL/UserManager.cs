@@ -12,29 +12,22 @@ namespace BL
     {
         DALContext ctx = new DALContext();
 
-        public void Add(User user)
-        {
-            ctx.Users.Add(user);
-        }
-
-        public User GetUserById(int id)
-        {
-            return ctx.Users.Find(id);
-        }
-
-        public List<User> GetUsers()
+        public List<User> Get()
         {
             return ctx.Users.ToList();
         }
 
-        public void Remove(int id)
+        public User Get(int id)
         {
-            var usr = ctx.Users.Find(id);
-            ctx.Users.Remove(usr);
-            ctx.SaveChanges();
+            return ctx.Users.Find(id);
         }
 
-        public void Update(User user)
+        public void Post(User user)
+        {
+            ctx.Users.Add(user);
+        }
+
+        public void Put(User user)
         {
             var usr = ctx.Users.Find(user.Id);
             usr.Name = user.Name;
@@ -43,5 +36,13 @@ namespace BL
             usr.Email = user.Email;
             ctx.SaveChanges();
         }
+
+        public void Delete(int id)
+        {
+            var usr = ctx.Users.Find(id);
+            ctx.Users.Remove(usr);
+            ctx.SaveChanges();
+        }
+
     }
 }
